@@ -1,7 +1,6 @@
 import { StarIcon as StarIconSolid } from "@heroicons/react/24/solid";
 import { StarIcon as StarIconOutline } from "@heroicons/react/24/outline";
-import { RateComponentType } from "../../Types/RateComponentType";
-
+import { RateComponentType } from "../Types/RateComponentType";
 
 export default function RateComponent({
 	rate,
@@ -19,13 +18,9 @@ export default function RateComponent({
 		<div className={`flex ${className} w-[${width}] `}>
 			{stars.map((star, ind) => {
 				if (star) {
-					return (
-						<StarIconSolid key={ind} className={`text-yellow-500`} />
-					);
+					return <StarIconSolid key={ind} className={`text-yellow-500`} />;
 				} else {
-					return (
-						<StarIconOutline key={ind} className={`text-yellow-500`} />
-					);
+					return <StarIconOutline key={ind} className={`text-yellow-500`} />;
 				}
 			})}
 		</div>

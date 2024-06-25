@@ -1,4 +1,4 @@
-import { ReactNode, createContext, useState } from "react";
+import { ReactNode, createContext, useEffect, useState } from "react";
 
 export type User = {
 	firstName: string;
@@ -29,6 +29,9 @@ export const AuthContextProvider = ({ children }: UserContextProviderProps) => {
 		window.localStorage.getItem("ACCESS_TOKEN" || null)
 	);
 
+	useEffect(() => {
+		window.localStorage.setItem("ACCESS_TOKEN", "123");
+	});
 	const setUser = (user: User) => {
 		_setUser({ ...user });
 	};

@@ -42,6 +42,8 @@ export default function MainLayout() {
 	const userMenu = useRef<HTMLDivElement | null>(null);
 	const mobileNavMenu = useRef<HTMLDivElement | null>(null);
 
+	
+	
 	const shrinkNav = () => {
 		(navElement.current as HTMLElement).style.width = navWidthBeforeExpand;
 		navElement.current?.querySelectorAll("a span").forEach((el) => {

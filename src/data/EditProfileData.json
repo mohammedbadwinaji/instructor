@@ -1,0 +1,30 @@
+{
+  "firstName": "mohammed",
+  "lastName": "naji",
+  "image": null,
+  "bio": "some info about me",
+  "headline": "hell",
+  "language": "english",
+  "socialMedia": [
+    {
+      "name": "website",
+      "url": "https://google.com"
+    },
+    {
+      "name": "youtube",
+      "url": "https://google.com"
+    },
+    {
+      "name": "linkedin",
+      "url": "https://google.com"
+    },
+    {
+      "name": "facebook",
+      "url": "https://google.com"
+    },
+    {
+      "name": "twitter",
+      "url": "https://google.com"
+    }
+  ]
+}

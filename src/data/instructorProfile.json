@@ -1,0 +1,73 @@
+{
+  "type": "instructor",
+  "firstName": "mohammed",
+  "lastName": "naji",
+  "image": "",
+  "bio": "Closing the Digital Skills Gap",
+  "headline": "Mark Lassoff 's parents frequently claim that Mark was born to be a programmer.  Starting, in the mid-eighties at age 11, Mark was hard at work on his Commodore 64 writing games in the BASIC language.  After completing a computer science degree, Mark developed software for several well-known internet startups during the initial internet boom of the mid 1990's.  Five years ago Mark parlayed a two decades of software development experience into his latest entrepreneurial venture, LearnToProgram Media. LearnToProgram Media publishes online courses that teach mobile, web, and game development. Over 500, 000 people have learned programming from Mark through online classes he has either authored or published. In addition to publishing popular courses and books LearnToProgram Media operates an internet video network which produces several programs on software development.Previously Mark founded PowerPlant Marketing, which created marketing automation software for REALTORS™.  After the sale of PowerPlant, Mark went on to found Internet Broadcasting Group which counted among it’s launch clients Nike, Blue Moon Brewing Company and Opubco.Mark lives in Connecticut and speaks worldwide on software development, entrepreneurship and online learning.  He has spoken at TechWeek NY, TechWeek LA, and SXSW, among other large conferences.  In his spare time he he enjoys aviation, mentoring new business owners and spending time with life-long friends and family.",
+  "studentCount": 100,
+  "reviewsCount": 50,
+  "socialMedia": [
+    { "name": "youtube", "url": "https://google.com" },
+    { "name": "facebook", "url": "https://google.com" },
+    { "name": "twitter", "url": "https://google.com" },
+    { "name": "linkedin", "url": "https://google.com" },
+    { "name": "website", "url": "https://google.com" }
+  ],
+  "courses": [
+    {
+      "id": "1234",
+      "title": "Javascript for Bigenner",
+      "courseImage": "",
+      "instructor": {
+        "firstName": "Mohammed",
+        "lastName": "Naji",
+        "image": ""
+      },
+      "rate": 3,
+      "studentCount": 2000,
+      "price": {
+        "currency": "USD",
+        "value": "1500",
+        "updated": null
+      },
+      "level": "Bigenner"
+    },
+    {
+      "id": "1234",
+      "title": "Javascript for Bigenner",
+      "courseImage": "",
+      "instructor": {
+        "firstName": "Mohammed",
+        "lastName": "Naji",
+        "image": ""
+      },
+      "rate": 3,
+      "studentCount": 2000,
+      "price": {
+        "currency": "USD",
+        "value": "1500",
+        "updated": null
+      },
+      "level": "Bigenner"
+    },
+    {
+      "id": "1234",
+      "title": "Javascript for Bigenner",
+      "courseImage": "",
+      "instructor": {
+        "firstName": "Mohammed",
+        "lastName": "Naji",
+        "image": ""
+      },
+      "rate": 3,
+      "studentCount": 2000,
+      "price": {
+        "currency": "USD",
+        "value": "1500",
+        "updated": null
+      },
+      "level": "Bigenner"
+    }
+  ]
+}

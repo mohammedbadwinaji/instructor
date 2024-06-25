@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--main-color: rgb(31 41 55);
+	--button-hover-color: rgb(31 41 55 / 80%);
+}
+.main-bg-color {
+	background-color: (31 41 55) !important;
+}
+.button-hover-bg-color {
+	background-color: rgb(31 41 55 / 80%) !important;
+}
+.input {
+	padding: 8px 12px;
+	border-radius: 6px;
+	border-width: 1px;
+	border-color: #9e9e9e;
+	transition: 0.3s;
+}
+.input::placeholder {
+	transition: 0.3s;
+}
+.input:focus {
+	border-color: var(--main-color);
+}
+.input:focus::placeholder {
+	opacity: 0;
+}
+
+.textarea {
+	resize: none;
+	border-radius: 6px;
+	border-width: 1px;
+	border-color: #9e9e9e;
+	transition: 0.3s;
+}
+.textarea:focus {
+	outline: none;
+	border-color: var(--main-color);
+}
+
+.button,
+.rounded-button,
+.button-inline-flex {
+	background: #1f2937;
+	color: white;
+	font-weight: bold;
+	border-radius: 6px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: capitalize;
+	transition: 0.3s;
+}
+.button-inline-flex {
+	display: inline-flex;
+}
+.rounded-button {
+	border-radius: 50%;
+}
+.button:hover,
+.rounded-button:hover,
+.button-inline-flex:hover {
+	background-color: var(--button-hover-color);
+}
+
+.button-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #1f2937;
+	color: white;
+	font-weight: bold;
+	text-transform: capitalize;
+	border-radius: 6px;
+	transition: 0.3s;
+}
+.button-icon :first-child {
+	margin-right: 10px;
+}
+.button-icon:hover {
+	background-color: var(--button-hover-color);
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #e5e7eb;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #1e293b;
+	transition: .3s;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #475569;
+}

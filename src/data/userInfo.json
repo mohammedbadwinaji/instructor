@@ -1,0 +1,28 @@
+{
+  "firstName": "Mohammed",
+  "lastName": "Naji",
+  "email": "mna816008@gmail.com",
+  "image": null,
+  "socialMedia": [
+    {
+      "name": "website",
+      "url": "https://google.ocm"
+    },
+    {
+      "name": "youtube",
+      "url": "https://google.ocm"
+    },
+    {
+      "name": "twitter",
+      "url": "https://google.ocm"
+    },
+    {
+      "name": "linkedin",
+      "url": "https://google.ocm"
+    },
+    {
+      "name": "facebook",
+      "url": "https://google.ocm"
+    }
+  ]
+}

@@ -289,12 +289,13 @@ export default function MainLayout() {
 						</div>
 					</nav>
 				</div>
-				<div className="p-2">
+				<div>
+					
 					<Outlet />
 				</div>
 				{/* footer  */}
 				<div
-					className="  w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4  absolute top-full
+					className=" mt-10 w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4  absolute top-full
 				left-0"
 				>
 					<div className="flex flex-col bg-red-500">

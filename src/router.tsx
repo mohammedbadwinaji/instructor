@@ -9,6 +9,7 @@ import Contact from "./pages/Contact";
 import Profile from "./pages/Profile";
 import EditProfile from "./pages/EditProfile";
 import Settings from "./pages/Settings";
+import CourseDetails from "./pages/CourseDetails";
 
 export const router = createHashRouter([
 	{
@@ -49,7 +50,10 @@ export const router = createHashRouter([
 			},
 		],
 	},
-
+	{
+		path: "/instructor/course/:id",
+		element: <CourseDetails />,
+	},
 	{
 		path: "/instructor/login",
 		element: <Login />,

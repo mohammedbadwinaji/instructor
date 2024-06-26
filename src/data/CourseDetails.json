@@ -1,0 +1,323 @@
+{
+  "category": "development",
+  "subCategory": "web development",
+  "title": "Become a Certified Web Developer: HTML, CSS and JavaScript",
+  "subtitle": "Learn: HTML | CSS | JavaScript | Web programming | Web development | Front-end | Responsive | JQuery",
+  "courseImage": "",
+  "rate": 4,
+  "studentCount": 2000,
+  "reviews": 50,
+  "instructor": {
+    "id": "1234",
+    "firstName": "Mohammed",
+    "lastName": "Naji",
+    "bio": "Programming Instructor with over 500,000 students worldwide.",
+    "headline": "Closing the Digital Skills Gap",
+    "image": "",
+    "rate": 4.5,
+    "reviewsCount": 180,
+    "studentsCount": 100,
+    "coursesCount": 15
+  },
+  "language": "english",
+  "created at": "",
+  "lastUpdated": "12/5/2023",
+  "studentLearns": [
+    "Prepare for Industry Certification Exam",
+    "Hours and Hours of Video Instruction",
+    "Earn Certification that is Proof of your Competence",
+    "Dozens of Code Examples to Download and Study",
+    "Comprehensive Coverage of HTML and CSS",
+    "Server Side Development with PHP"
+  ],
+
+  "includes": {
+    "articlesCount": 15,
+    "quizesCount": 10,
+    "videoTotalTime": "7.5 hourse and 45 minutes"
+  },
+  "Curriculum": [
+    {
+      "sectionName": "introduction",
+      "sectionId": "555",
+      "articlesCount": 10,
+      "videoTime": "5h-10min",
+      "quizesCount": 5,
+      "sectionContent": [
+        {
+          "id": "555555",
+          "title": "introduction",
+          "type": "video",
+          "video": "",
+          "time": "20 min",
+          "poster": "",
+          "description": "add description. include what students will be able to do after completing the lecture",
+          "resources": [ "link one", "link two" ]
+        },
+        {
+          "type": "article",
+          "title": "introduction",
+          "text": "hello from the other side",
+          "description": "add description. include what students will be able to do after completing the lecture",
+          "resources": [ "link one", "link two" ]
+        },
+        {
+          "type": "quiz",
+          "title": "quiz title",
+          "description": "quiz description",
+          "questions": [
+            {
+              "question": "what is ... ",
+              "answers": [
+                { "answer": "this  is ... ", "state": false, "explain": "explain why this is or isn't the best answer" },
+                { "answer": "this  is ... ", "state": false, "explain": "explain why this is or isn't the best answer" },
+                { "answer": "this  is ... ", "state": false, "explain": "explain why this is or isn't the best answer" },
+                { "answer": "this  is isparta ... ", "state": false, "explain": "explain why this is or isn't the best answer" },
+                { "answer": "this  is isparta ... ", "state": true, "explain": "explain why this is or isn't the best answer" }
+              ]
+            },
+            {
+              "question": "what is ... ",
+              "answers": [
+                { "answer": "this  is ... ", "state": false },
+                { "answer": "this  is ... ", "state": false },
+                { "answer": "this  is ... ", "state": false },
+                { "answer": "this  is isparta ... ", "state": true },
+                { "answer": "this  is isparta ... ", "state": true }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionName": "Section Two",
+      "sectionId": "555",
+      "articlesCount": 15,
+      "videoTime": "5h-10min",
+      "quizesCount": 50,
+      "sectionContent": [
+        {
+          "id": "555555",
+          "title": "introduction",
+          "type": "video",
+          "video": "",
+          "time": "20 min ,15 second",
+          "poster": "",
+          "description": "add description. include what students will be able to do after completing the lecture",
+          "resources": [ "link one", "link two" ]
+        },
+        {
+          "type": "article",
+          "title": "introduction",
+          "text": "hello from the other side",
+          "description": "add description. include what students will be able to do after completing the lecture",
+          "resources": [ "link one", "link two" ]
+        },
+        {
+          "type": "quiz",
+          "title": "quiz title",
+          "description": "quiz description",
+          "questions": [
+            {
+              "question": "what is ... ",
+              "answers": [
+                { "answer": "this  is ... ", "state": false, "explain": "explain why this is or isn't the best answer" },
+                { "answer": "this  is ... ", "state": false, "explain": "explain why this is or isn't the best answer" },
+                { "answer": "this  is ... ", "state": false, "explain": "explain why this is or isn't the best answer" },
+                { "answer": "this  is isparta ... ", "state": false, "explain": "explain why this is or isn't the best answer" },
+                { "answer": "this  is isparta ... ", "state": true, "explain": "explain why this is or isn't the best answer" }
+              ]
+            },
+            {
+              "question": "what is ... ",
+              "answers": [
+                { "answer": "this  is ... ", "state": false },
+                { "answer": "this  is ... ", "state": false },
+                { "answer": "this  is ... ", "state": false },
+                { "answer": "this  is isparta ... ", "state": true },
+                { "answer": "this  is isparta ... ", "state": true }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionName": "Section Three",
+      "sectionId": "555",
+      "articlesCount": 10,
+      "videoTime": "5h-10min",
+      "quizesCount": 5,
+      "sectionContent": [
+        {
+          "id": "555555",
+          "title": "introduction",
+          "type": "video",
+          "video": "",
+          "time": "20 min",
+          "poster": "",
+          "description": "add description. include what students will be able to do after completing the lecture",
+          "resources": [ "link one", "link two" ]
+        },
+        {
+          "type": "article",
+          "title": "introduction",
+          "text": "hello from the other side",
+          "description": "add description. include what students will be able to do after completing the lecture",
+          "resources": [ "link one", "link two" ]
+        },
+        {
+          "type": "quiz",
+          "title": "quiz title",
+          "description": "quiz description",
+          "questions": [
+            {
+              "question": "what is ... ",
+              "answers": [
+                { "answer": "this  is ... ", "state": false, "explain": "explain why this is or isn't the best answer" },
+                { "answer": "this  is ... ", "state": false, "explain": "explain why this is or isn't the best answer" },
+                { "answer": "this  is ... ", "state": false, "explain": "explain why this is or isn't the best answer" },
+                { "answer": "this  is isparta ... ", "state": false, "explain": "explain why this is or isn't the best answer" },
+                { "answer": "this  is isparta ... ", "state": true, "explain": "explain why this is or isn't the best answer" }
+              ]
+            },
+            {
+              "question": "what is ... ",
+              "answers": [
+                { "answer": "this  is ... ", "state": false },
+                { "answer": "this  is ... ", "state": false },
+                { "answer": "this  is ... ", "state": false },
+                { "answer": "this  is isparta ... ", "state": true },
+                { "answer": "this  is isparta ... ", "state": true }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionName": "Section Four",
+      "sectionId": "555",
+      "articlesCount": 10,
+      "videoTime": "5h-10min",
+      "quizesCount": 5,
+      "sectionContent": [
+        {
+          "id": "555555",
+          "title": "introduction",
+          "type": "video",
+          "video": "",
+          "time": "20 min",
+          "poster": "",
+          "description": "add description. include what students will be able to do after completing the lecture",
+          "resources": [ "link one", "link two" ]
+        },
+        {
+          "type": "article",
+          "title": "introduction",
+          "text": "hello from the other side",
+          "description": "add description. include what students will be able to do after completing the lecture",
+          "resources": [ "link one", "link two" ]
+        },
+        {
+          "type": "quiz",
+          "title": "quiz title",
+          "description": "quiz description",
+          "questions": [
+            {
+              "question": "what is ... ",
+              "answers": [
+                { "answer": "this  is ... ", "state": false, "explain": "explain why this is or isn't the best answer" },
+                { "answer": "this  is ... ", "state": false, "explain": "explain why this is or isn't the best answer" },
+                { "answer": "this  is ... ", "state": false, "explain": "explain why this is or isn't the best answer" },
+                { "answer": "this  is isparta ... ", "state": false, "explain": "explain why this is or isn't the best answer" },
+                { "answer": "this  is isparta ... ", "state": true, "explain": "explain why this is or isn't the best answer" }
+              ]
+            },
+            {
+              "question": "what is ... ",
+              "answers": [
+                { "answer": "this  is ... ", "state": false },
+                { "answer": "this  is ... ", "state": false },
+                { "answer": "this  is ... ", "state": false },
+                { "answer": "this  is isparta ... ", "state": true },
+                { "answer": "this  is isparta ... ", "state": true }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sectionName": "Section Five",
+      "sectionId": "555",
+      "articlesCount": 10,
+      "videoTime": "5h-10min",
+      "quizesCount": 5,
+      "sectionContent": [
+        {
+          "id": "555555",
+          "title": "introduction",
+          "type": "video",
+          "video": "",
+          "time": "20 min",
+          "poster": "",
+          "description": "add description. include what students will be able to do after completing the lecture",
+          "resources": [ "link one", "link two" ]
+        },
+        {
+          "type": "article",
+          "title": "introduction",
+          "text": "hello from the other side",
+          "description": "add description. include what students will be able to do after completing the lecture",
+          "resources": [ "link one", "link two" ]
+        },
+        {
+          "type": "quiz",
+          "title": "quiz title",
+          "description": "quiz description",
+          "questions": [
+            {
+              "question": "what is ... ",
+              "answers": [
+                { "answer": "this  is ... ", "state": false, "explain": "explain why this is or isn't the best answer" },
+                { "answer": "this  is ... ", "state": false, "explain": "explain why this is or isn't the best answer" },
+                { "answer": "this  is ... ", "state": false, "explain": "explain why this is or isn't the best answer" },
+                { "answer": "this  is isparta ... ", "state": false, "explain": "explain why this is or isn't the best answer" },
+                { "answer": "this  is isparta ... ", "state": true, "explain": "explain why this is or isn't the best answer" }
+              ]
+            },
+            {
+              "question": "what is ... ",
+              "answers": [
+                { "answer": "this  is ... ", "state": false },
+                { "answer": "this  is ... ", "state": false },
+                { "answer": "this  is ... ", "state": false },
+                { "answer": "this  is isparta ... ", "state": true },
+                { "answer": "this  is isparta ... ", "state": true }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "requirements": [
+    "There are no skill prerequisites for this course although it's helpful if you are familiar with operating your computer and using the internet.",
+    "You can take this course using a Mac, PC or LInux machine.",
+    "It is recommended that you download the free Komodo text editor."
+  ],
+  "description": "The unique Certified Web Development Professional credential will provide proof that you have mastered the fundamental skills needed by new web developers. You'll have a full understanding of HTML5, the language used to structure web sites and many mobile applications that you use every day. From there, you'll move on to Javascript-- the language of interaction on the web. The use of Javascript is growing at a lightning pace and it's been called the most important language to learn today,by multiple experts.",
+  "courseFor": [
+    "Web Designers looking to improve their skill set",
+    "Programmers who need to learn Javascript for their web applications",
+    "People looking to start programming and need a first programming language to learn"
+  ],
+  "price": {
+    "currency": "USD",
+    "value": "500",
+    "updated": null
+  }
+
+}

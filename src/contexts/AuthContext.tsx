@@ -32,6 +32,7 @@ export const AuthContextProvider = ({ children }: UserContextProviderProps) => {
 	useEffect(() => {
 		window.localStorage.setItem("ACCESS_TOKEN", "123");
 	});
+	
 	const setUser = (user: User) => {
 		_setUser({ ...user });
 	};

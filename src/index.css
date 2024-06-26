@@ -66,7 +66,8 @@
 	background-color: var(--button-hover-color);
 }
 
-.button-icon {
+.button-icon,
+.button-icon-inline-flex {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -77,10 +78,12 @@
 	border-radius: 6px;
 	transition: 0.3s;
 }
-.button-icon :first-child {
+.button-icon :first-child,
+.button-icon-inline-flex :first-child {
 	margin-right: 10px;
 }
-.button-icon:hover {
+.button-icon:hover,
+.button-icon-inline-flex:hover {
 	background-color: var(--button-hover-color);
 }
 
